@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install && npx playwright install --with-deps chromium",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet ."
+}
