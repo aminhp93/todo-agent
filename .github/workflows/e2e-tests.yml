@@ -27,9 +27,9 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps chromium
 
-      - name: Run E2E tests against preview deployment
+      - name: Run E2E tests against production deployment
         env:
-          BASE_URL: ${{ github.event.deployment_status.target_url }}
+          BASE_URL: https://todo-agent-blue.vercel.app
         run: pnpm test:e2e
 
       - name: Upload test results
