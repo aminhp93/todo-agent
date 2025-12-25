@@ -256,6 +256,40 @@ For detailed testing guide, see [TESTING.md](./TESTING.md)
 - [Testing Library](https://testing-library.com/)
 - [Playwright Docs](https://playwright.dev/)
 
+## Working with AI Assistant
+
+See [AI-COLLABORATION-GUIDE.md](./AI-COLLABORATION-GUIDE.md) for comprehensive guide on:
+- How to request new features
+- How to report bugs
+- How to ask for code reviews
+- Prompt templates and examples
+- Best practices for AI collaboration
+
+### Quick Tips for AI Collaboration
+
+**Starting a conversation:**
+```markdown
+Working on Agent Engineering Todo App at /Users/minhpham/working/agent/todo-agent
+[Your request with context]
+```
+
+**Adding a feature:**
+```markdown
+Add [feature] to the todo app.
+Requirements: [list]
+Include tests and update docs.
+Follow Agent Engineering patterns.
+```
+
+**Fixing a bug:**
+```markdown
+Bug: [description]
+Expected: [behavior]
+Actual: [behavior]
+Steps: [1, 2, 3]
+Files: [list]
+```
+
 ## Notes for AI Assistant
 
 When working with this project in future conversations:
@@ -269,3 +303,4 @@ When working with this project in future conversations:
 - Test coverage targets: Services 100%, Components 95%+, Overall 90%+
 - When adding features, write tests first (TDD approach)
 - All tests should pass before committing (`npm test && npm run test:e2e`)
+- See AI-COLLABORATION-GUIDE.md for detailed collaboration patterns

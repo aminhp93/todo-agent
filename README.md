@@ -49,8 +49,13 @@ The project follows Agent Engineering principles with clear separation of concer
 
 ## Documentation
 
+📖 **[DOCUMENTATION-INDEX.md](./DOCUMENTATION-INDEX.md)** - Start here! Complete guide to all docs
+
+### Key Documents
 - [INSTRUCTIONS.md](./INSTRUCTIONS.md) - Complete development guide
+- [AI-COLLABORATION-GUIDE.md](./AI-COLLABORATION-GUIDE.md) - **How to work with AI** (Important!)
 - [TESTING.md](./TESTING.md) - Comprehensive testing documentation
+- [PROJECT-SUMMARY.md](./PROJECT-SUMMARY.md) - Complete project overview
 
 ## Testing
 
